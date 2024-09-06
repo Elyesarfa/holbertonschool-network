@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This script modifies the /etc/hosts file to change the IP address resolution for localhost and facebook.com
 
 # Backup the current /etc/hosts file
