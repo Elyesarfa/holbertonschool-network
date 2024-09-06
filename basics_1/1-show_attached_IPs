@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script displays all active IPv4 addresses on the machine
 
 # Use ifconfig to list all IPv4 addresses
