@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Use the 'ip' command to list all IPv4 addresses
+# -o: Show output in a single line format
+# -4: Display only IPv4 addresses
+# awk filters out the IP addresses from the output
+ip -4 -o addr show | awk '{print $4}' | cut -d/ -f1
