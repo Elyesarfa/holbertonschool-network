@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Use the 'ip' command to list all IPv4 addresses
 # -o: Show output in a single line format
